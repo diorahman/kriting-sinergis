@@ -1,0 +1,23 @@
+{
+  "name": "kriting-sinergis",
+  "version": "0.0.1",
+  "description": "Kriting Sinergis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony .",
+    "test": "echo 'Please give me one!\n'"
+  },
+  "keywords": [
+    "kriting",
+    "sinergis"
+  ],
+  "dependencies": {
+    "app": "git+ssh://git@bitbucket.org:diorahman/kriting-app.git#master",
+    "api": "git://github.com/diorahman/kriting-api.git",
+    "sinergis": "git://github.com/diorahman/sinergis.git",
+    "kasta": "0.0.1",
+    "koa-compose": "^2.2.0"
+  },
+  "author": "Dhi Aurrahman <diorahman@gmail.com>",
+  "license": "MIT"
+}
